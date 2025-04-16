@@ -103,7 +103,7 @@ const [showBillingInfo, setShowBillingInfo] = useState(false);
                     <p className="p-card">
                       Months
                       {[1, 3, 12].map((m) => (
-                        <label key={m} className="ml-1">
+                        <label key={m} className="">
                           <input
                             type="radio"
                             className="check-box"
