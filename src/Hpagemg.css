@@ -1,0 +1,121 @@
+.First-Section {
+    margin-top: 50px;
+}
+
+.Comp-info-mg {
+    background-color: #fff;
+    /* margin: 10px; */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+
+}
+
+.info-box {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.info-box div img {
+    width: 300px;
+    height: 260px;
+    
+}
+.info-box div  img:hover{
+    filter: drop-shadow(10px 10px 15px rgba(90, 160, 240, 0.685));
+    width: 305px;
+    height: 265px;
+}
+
+.para-manager-main {
+    max-width: 50%;
+}
+
+.para-head {
+    font-size: 23px;
+    font-weight: 800;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.para-pg-mg {
+   text-align: justify;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+/* ********************************** companey information  mg ************************************
+********************************** companey information  mg ************************************ */
+
+.inst-info {
+    padding: 40px 30px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    border-top: 5px solid #1485f0;
+}
+
+.com-info-main {
+
+    border-left: #1485f0 2px solid;
+    padding: 5px 20px ;
+    /* max-width: 50%; */
+
+}
+
+.pg-com-info {
+
+}
+.inst-infotype{
+    width: 600px ;
+    overflow: visible;
+    /* padding: 40px; */
+}
+#typing-heading{
+    font-size: 2em;
+    white-space: nowrap;
+    /* overflow: hidden; */
+    font-family: Arial, sans-serif;
+}
+#dynamic-text{
+    color: #1485f0;
+    border-right: .15em solid orange;
+}
+
+/* *********************************banner slider start here ********************************* */
+/* *********************************banner slider start here ********************************* */
+
+.slider {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    transition: transform 50s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.slide img {
+    width: 100%;
+    display: block;
+}
+
+/* *********************************banner slider end here ********************************* */
+/* *********************************banner slider end here ********************************* */

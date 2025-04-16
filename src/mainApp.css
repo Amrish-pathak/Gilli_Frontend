@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Kreon:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.Main-Container {
+    display: grid;
+    grid-column: auto;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.Head-Nav {
+    
+    position: fixed;
+    font-family: "Kreon", serif;
+    display: flex;
+    align-items: center;
+    background-color: #343f71;
+    width: 100%;
+    z-index: 99;
+    box-shadow: 0px 12px 18px -6px rgb(0 0 0 / 30%);
+   
+}
+ 
+.Logo-with-Name {
+    display: flex;
+    align-items: center;
+}
+
+.Logo-Img {
+    margin: 0px 10px;
+    border-radius: 50%;
+}
+
+.Logo-Img img {
+    height: 38px;
+    width: 40px;
+    border: 2px solid rgb(255, 255, 255);
+    margin: 5px 15px;
+    border-radius: 50%;
+}
+
+.Company-Name {
+    margin-left: 0.5rem;
+    color: #ffff;
+    font-size: 1.8rem !important;
+    font-weight: 700 !important;
+}
+
+.Nav-Item {
+    margin-left: 7rem;
+
+}
+
+.Nav-Item ul {
+    display: flex;
+    margin-left: 20px;
+}
+
+.Nav-Item li {
+    padding-left: 0rem;
+    list-style: none;
+}
+
+.Nav-Item li a {
+    color: #ffff;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.Nav-Item li a:hover {
+    color: #070707;
+    font-weight: bold;
+    background-color: #ffffff;
+
+}
+ .active{
+    background-color: #6e88fc !important;
+ }
+
+
+ /* **************************** sab menu manager ********************
+ **************************** sab menu manager ******************** */
+
+ .Nav-Item ul .sab-menu{
+    display: none;
+    position: absolute;
+    /* top: 40px; */
+    /* left: 0px; */
+    background-color: #ffffff;
+    list-style: none;
+    padding: 10px;
+    border-radius: 5px;
+    
+ }
+ .Nav-Item ul .sab-menu li{
+    margin-bottom: 5px;
+ }
+ .Nav-Item ul .sab-menu li a{
+    padding: 4px 0px;
+    color:#2f42eb;
+    font-size: 14px;
+    font-weight: bold;
+ }
+ .Nav-Item ul .sab-menu li a:hover{
+    background-color: #3795e2;
+    color: #ffff;
+ }
+
+ .Nav-Item ul.nav-list li.dropdown:hover .sab-menu {
+    display: block;
+}
+.Ham-burger {
+    display: none;
+    position: absolute;
+    right: 5%;
+    top: 8px;
+    cursor: pointer;
+    color: #ffff;
+    font-size: 23px;
+}
+
+.line {
+    width: 25px;
+    height: 3px;
+    margin: 5px 3px;
+    background-color: #ffffff;
+}
+
+ .First-Section{
+    height: auto;
+   background-color:  #e8e8e8;
+ }
+
+.Footer-Tag {
+    background-color: #343f71;
+    display: flex;
+    overflow: hidden;
+    font-family: "Kreon", serif;
+}
+
+.Foot {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #ffff;
+    padding: 5px;
+    margin-left: 23px;
+   
+}
+
+.Footer-Media {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Footer-Media i {
+    color: #ffff;
+    font-size: 18px;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.Footer-Media i:hover {
+    color: red;
+    scale: 1.5;
+}
+
+/* second footer all css here  */
+.Second-Foot, .resp-mg-quicktoch {
+    display: flex;
+    background-color: #ffffff4f;
+    font-family: "Kreon", serif;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    height: auto;
+    min-height: 300px;
+    justify-content: space-around !important;
+}
+
+.Footer-Logo-Name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    
+
+}
+
+.Foot-Logo {}
+
+.Foot-Logo img {
+    margin-right: 10px;
+    margin-left: 40px;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+}
+
+.Foot-Company-Name {
+    display: none;
+}
+
+.Company-Discretion {
+    height: auto;
+    width: 35%;
+    margin-top: 10px;
+    font-family: "Kreon", serif;
+    text-align: justify;
+    /* font-stretch: 1rem; */
+    line-height: 1.8rem;
+    font-size: 16px;
+}
+
+.Others-Links {
+    height: auto;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 4%;
+    font-size: 14px;
+}
+.Others-Links a{
+    text-decoration: none;
+    color: #070707;
+    font-weight: 5px;
+}
+.Others-Links a:hover{
+    
+    color: #2f42eb;
+}
+
+.Foot-Heading {
+    font-size: 15px;
+}
+
+ 
+
+.Contact-US {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    height: auto;
+    width: 40%;
+    gap: 20px;
+    font-family: "Kreon", serif;
+}
+
+.Contact-US .text img {
+    height: 25px;
+    width: 25px;
+    margin-right: 20px
+}
+
+.Contact-US .text {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#fix-img{
+    height: 20px;
+    width: 20px;
+    margin-right: 22px;
+}
+
+
+/* main page para manager  */
+.all-para-cnt{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    align-items: center;
+    
+    }
+    .flx-drax{
+      flex-direction: row-reverse;
+    }
+    .Content{
+      width: 60%;
+      text-justify:distribute;
+      font-family: sans-serif;
+      font-size: 15px;
+      color: rgba(0, 0, 0, 0.993);
+      line-height: 1.25rem;
+    }
+    
+    .First-paragraph {
+     
+    
+    }
+    
+    .Second-paragraph {
+      
+    }
+    
+    .Third-paragraph {
+      
+    
+    }
+    
+    .Fourth-paragraph {
+      
+    }
+    
+    .Third-paragraph .Content {
+      
+    }
+    
+    .img img {
+      height: 200px;
+      width: 345px;
+      border-radius: 23px;
+    
+    }
+    .img img:hover{
+    
+      /* size: 1.5rem; */
+    }
+    
+ 
+
+ 

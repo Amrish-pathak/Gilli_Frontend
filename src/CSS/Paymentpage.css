@@ -1,0 +1,369 @@
+.popover {
+    max-width: 450px;
+}
+.hide {
+    display: none;
+}
+
+#paymentDiv {
+    font-family: "Inter", sans-serif;
+}
+
+span {
+    font-family: "Inter", sans-serif;
+}
+
+.form-control,
+.form-select,
+.form-check-input {
+    background-color: #E2E8F0;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    box-shadow: none !important;
+}
+
+.btn {
+    box-shadow: none !important;
+}
+
+.form-label,
+.form-check-label {
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+}
+
+.form-label {
+    color: #718096;
+    font-weight: 500;
+}
+
+.form-check-input:checked {
+    background-color: #0d6efd !important;
+}
+
+.line {
+    display: inline-block;
+    height: 1.5px;
+    align-self: center;
+    background-color: #3182CE;
+    width: 25px;
+    margin: 0px 10px 5px 10px;
+}
+
+#strPreferredPartner {
+    /* font-size: 12px !important;  */
+    height: 22px !important;
+    width: 70% !important;
+    display: inline !important;
+    background-color: #E2E8F0 !important;
+    border-radius: 6px !important;
+    border: none !important;
+    width: 80% !important;
+}
+
+input[readonly],
+input[disabled] {
+    cursor: not-allowed;
+}
+
+.table>:not(:first-child) {
+    border-top: none !important;
+}
+
+tbody {
+    border-color: white !important;
+}
+
+#proceedToPay:hover {
+    background-color: #f58a00 !important;
+}
+
+#idBackBtn:hover {
+    background-color: #E2E8F0 !important;
+}
+
+/*mobile show media query css start */
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 736px) {
+
+    #paymentDiv {
+        background-color: white !important;
+    }
+
+    .form-control {
+        font-size: 12px !important;
+    }
+
+    .form-label {
+        font-size: 12px !important;
+    }
+
+    .form-check-input,
+    .form-check-label {
+        font-size: 12px !important;
+    }
+
+    .clsFont12forMobile,
+    #strCity,
+    #strState {
+        font-size: 12px !important;
+    }
+
+    .clsFont14forMobile {
+        font-size: 14px !important;
+    }
+
+    .clsFont16forMobile {
+        font-size: 16px !important;
+    }
+
+    .clsFont18forMobile {
+        font-size: 18px !important;
+    }
+
+    .clsFont20forMobile {
+        font-size: 20px !important;
+    }
+
+    .clsFont22forMobile {
+        font-size: 22px !important;
+    }
+
+    textarea {
+        height: 80px !important;
+    }
+
+    .line {
+        width: 10px !important;
+        margin: 0px 0px 4px 0px !important;
+    }
+
+    #idBillingOrderReviewAndPayment {
+        padding: 30px 0px 10px 0px !important;
+    }
+
+    #idBtnsDiv {
+        padding-top: 30px !important;
+    }
+
+    #strPreferredPartner {
+        width: 60% !important;
+    }
+
+    #logo_image {
+        height: 40px !important;
+        width: 80px !important;
+        margin-left: 25px !important;
+    }
+
+    #contentsItemDetails {
+        padding: 0px 0px 30px 0px !important;
+    }
+
+    #labelRegistrationNumber,
+    #labelZipCode,
+    #labelCountry,
+    #labelCustomerAddress,
+    #labelCustomerMobile,
+    #labelCustomerGSTSIN,
+    #labelCity,
+    #labelState,
+    #labelCustomerPinCode,
+    #labelCustomerEmail,
+    #labelCustomerName {
+        display: none !important;
+    }
+
+    #tssRenewProductLabel,
+    #tssRenewSerialLabel,
+    #tssRenewQtyLabel,
+    #tssRenewPriceLabel,
+    #tssRenewSubTotalLabel,
+    #tssRenewEmailLabel,
+    #tssRenewServiceCouponLabel {
+        margin-top: 10px !important;
+    }
+
+    #noGSTINCheckLabel {
+        display: block !important;
+    }
+
+    #noGSTINBlock {
+        margin-bottom: 0px !important;
+    }
+
+    #btnFindPartnerByName {
+        margin-bottom: 5px !important;
+    }
+
+    #TssBlock {
+        height: 35px !important;
+    }
+
+    .clsTextBoldForMobile {
+        font-weight: bold !important;
+    }
+
+    .clsMargin10BottomForMobile {
+        margin-bottom: 10px !important;
+    }
+
+    #labelZipCodeErr,
+    #labelPinCodeErr,
+    #labelGSTINErr {
+        font-size: 10px !important;
+    }
+
+    .clsMarginTop5forMobile {
+        margin-top: 5px !important;
+    }
+
+    .clsPaddingTop0inMobile {
+        padding-top: 0px !important;
+    }
+
+    #common-alert {
+        width: 95% !important;
+        position: absolute !important;
+        top: 25% !important;
+        left: 0px !important;
+        margin-left: 8px !important;
+    }
+
+    #common-info-div {
+        width: 95% !important;
+        position: absolute !important;
+        top: 25% !important;
+        left: 0px !important;
+        margin-left: 8px !important;
+    }
+
+}
+
+.err {
+    color: red;
+    display: inline;
+    white-space: normal;
+}
+
+.modal-header {
+    background-color: #096493 !important;
+}
+
+.modal-header .close {
+    margin-top: 12px !important;
+}
+
+.modal-title {
+    font-size: 16px !important;
+    color: white;
+}
+
+#common-dialog.modal {
+    z-index: 999999 !important;
+}
+
+.close {
+    float: right;
+}
+
+.loader_cls {
+    background: url("/ajax-loader-big.gif") no-repeat;
+    height: 200%;
+    width: 100%;
+    z-index: 9999;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+}
+
+.disable_background {
+    height: 200%;
+    width: 100%;
+    z-index: 2009;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background: #BABABC;
+    opacity: 0.5;
+}
+
+.selectBox {
+    width: 100%;
+}
+
+.form-danger {
+    border: 1px solid red;
+}
+
+.results-table table,
+.results-table thead,
+.results-table tbody,
+.results-table th,
+.results-table td,
+.results-table tr {
+    display: inline;
+}
+
+.results-table {
+    margin: 0px -9px;
+    padding: 0px 10px 0px;
+    word-wrap: break-word;
+}
+
+.results-table table tr td,
+.results-table table tr th {
+    max-width: 100%;
+}
+
+.results-table thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
+.results-table tr {
+    border: none !important;
+}
+
+.results-table table tr td {
+    border: none;
+    position: relative;
+    padding-left: 54%;
+    white-space: nowrap;
+    text-align: left;
+
+}
+
+.btn-continue {
+    background-color: #ff9c00;
+    border-radius: 0 !important;
+    color: #fff;
+}
+
+.borderless td,
+.borderless th {
+    border: none;
+}
+
+.btn-continue:hover {
+    background-color: #f58a00;
+    border-radius: 0 !important;
+    color: #fff;
+}
+
+.inputType {
+    width: 100%;
+}
+
+.commonSerial {
+    margin-left: 6px;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: rgb(219, 223, 15);
+}

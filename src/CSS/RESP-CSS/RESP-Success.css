@@ -1,0 +1,106 @@
+@media only screen and (max-width: 790px) {
+
+
+    /* Success resp css here  */
+    .successinfo {
+        background-color: #FFFF;
+        height: 100vh;
+        width: 100%;
+        border-radius: 30px;
+
+    }
+
+    .successinfo h3 {
+        font-size: 20px;
+    }
+
+    .successinfo P {
+
+        font-size: 16px;
+
+    }
+    .check-container {
+        width: 7.25rem;
+        height: 8.5rem;
+    }
+}
+@media only screen and (max-width: 595px) {
+
+
+    /* Success resp css here  */
+    .successinfo {
+        background-color: #FFFF;
+        height: 100vh;
+        width: 100%;
+        border-radius: 30px;
+    }
+
+    .successinfo h3 {
+        font-size: 16px;
+    }
+
+    .successinfo P {
+
+        font-size: 12px;
+
+    }
+    .check-container {
+        width: 5.25rem;
+        height: 6.5rem;
+    }
+    @media only screen and (max-width: 595px) {
+
+
+    /* Success resp css here  */
+    .successinfo {
+        background-color:  #ffff;
+        height: 100vh;
+        width: 100%;
+        border-radius: 30px;
+    }
+
+    .successinfo h3 {
+        font-size: 16px;
+        letter-spacing: 0.6px;
+    }
+
+    .successinfo P {
+        margin: 20px 0 0 10px;
+        letter-spacing: 0.6px;
+        font-size: 12px;
+
+    }
+    #text-hidden{
+        display: none;
+    }
+    .check-container {
+        width: 5.25rem;
+        height: 6.5rem;
+    }
+}
+    @media only screen and (max-width: 477px) {
+
+
+    /* Success resp css here  */
+    .successinfo {
+         
+        height: 100vh;
+        width: 100%;
+        border-radius: 30px;
+    }
+
+    .successinfo h3 {
+        font-size: 16px;
+    }
+
+    .successinfo P {
+
+        font-size: 12px;
+
+    }
+    .check-container {
+        width: 5.25rem;
+        height: 6.5rem;
+    }
+}
+}

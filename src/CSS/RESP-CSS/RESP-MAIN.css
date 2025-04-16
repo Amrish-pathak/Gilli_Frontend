@@ -1,0 +1,298 @@
+@media only screen and (max-width: 1050px) {
+    .Logo-Img {
+        margin: 2px 8px;
+    }
+
+    .Logo-Img img {
+        height: 30px;
+        width: 33px;
+        margin: auto;
+
+    }
+
+    .Company-Name {
+        margin-left: 0.5rem;
+        font-size: 1.2rem !important;
+
+    }
+
+    .Nav-Item {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .Nav-Item ul {
+        margin-left: 0px;
+    }
+
+    .Nav-Item li {
+        padding-left: 1rem;
+    }
+
+    .Nav-Item li a {
+        font-size: 18px;
+        font-weight: 200;
+        padding: 8px;
+    }
+
+    .Foot {
+        font-weight: 100;
+        font-size: 0.8rem;
+    }
+
+    .Footer-Media i {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+
+    .Logo-Img {
+        margin: 2px 6px;
+    }
+
+    .Logo-Img img {
+        height: 28px;
+        width: 30px;
+        margin: auto;
+    }
+
+    .Company-Name {
+        margin-left: 0.3rem;
+        font-size: 1.03rem !important;
+
+    }
+
+    .Nav-Item li a {
+        font-size: 14px;
+        padding: 9px;
+    }
+
+    .Nav-Item li a:hover {
+        border-top: 2px solid #ffff;
+    }
+
+    .Footer-Media i {
+        font-size: 14px;
+        margin: 0px 6px;
+    }
+
+    .Foot-Logo img {
+        margin-left: 20px;
+    }
+}
+@media only screen and (max-width: 720px) {
+
+.Second-Foot{
+flex-direction: column;
+}
+
+.Company-Discretion{
+
+    width: 90% !important;
+}
+.Others-Links{
+    width: 90%;
+}
+.Contact-US{
+    width: 90%;
+}
+}
+
+@media only screen and (max-width: 660px) {
+
+    .Ham-burger {
+        display: inline-block;
+    }
+
+
+    .Head-Nav {
+        flex-direction: column;
+        align-items: start;
+
+    }
+
+    .Logo-with-Name {
+        margin: 2px;
+        justify-content: start;
+    }
+
+    .Nav-Item {
+        height: 164px;
+        transition: all 0.7s ease-out;
+        width: 100%;
+
+    }
+
+    .Nav-Item ul {
+        transition: all 0.7s ease-out;
+        margin-left: 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Nav-Item li {
+        margin-top: 10px;
+        padding-left: 1rem;
+    }
+
+    .Nav-Item li a {
+        font-size: 14px;
+        font-weight: bold;
+        padding: 9px;
+    }
+
+    .Nav-Item li a:hover {
+        border-top: 2px solid #ffff;
+    }
+/* Ham-burger togel full logical function start here  */
+    .burger-h-nav {
+        height: 0px;
+         
+    }
+
+    .burger-v-nav {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .Footer-Tag {
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+
+    .Foot {
+        width: 100%;
+        font-weight: 100;
+        font-size: 0.8rem;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Footer-Media {
+        width: 100%;
+        background-color: #8595e4;
+    }
+
+    .Footer-Media i {
+
+        font-size: 14px;
+        margin: 0px 6px;
+    }
+
+    .Footer-Logo-Name {
+        /* display: none; */
+    }
+    
+    
+    .Company-Discretion {
+        /* display: none; */
+    }
+    .Others-Links{
+        width: 90%;
+    }
+    .Contact-US{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .Ham-burger {
+        display: inline-block;
+    }
+
+
+    .Head-Nav {
+        flex-direction: column;
+        align-items: start;
+
+    }
+
+    .Logo-with-Name {
+        margin: 2px;
+        justify-content: start;
+    }
+
+    .Nav-Item {
+        height: 164px;
+        transition: all 0.7s ease-out;
+
+    }
+
+    .Nav-Item ul {
+        transition: all 0.7s ease-out;
+        margin-left: 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Nav-Item li {
+        margin-top: 10px;
+        padding-left: 1rem;
+    }
+
+    .Nav-Item li a {
+        font-size: 14px;
+        font-weight: bold;
+        padding: 9px;
+    }
+
+    .Nav-Item li a:hover {
+        border-top: 2px solid #ffff;
+    }
+
+    .burger-h-nav {
+        height: 0px;
+    }
+
+    .burger-v-nav {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .Footer-Tag {
+
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+
+    .Foot {
+        width: 100%;
+        font-weight: 100;
+        font-size: 0.8rem;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Footer-Media {
+        width: 100%;
+        background-color: #687ee0;
+    }
+
+    .Footer-Media i {
+
+        font-size: 14px;
+        margin: 0px 6px;
+    }
+    .Second-Foot ,.resp-mg-quicktoch {
+        flex-direction: column;
+        
+             
+        }
+        .resp-mg-quicktoch {
+            width: 90%;
+            
+        }
+        .Others-Links{
+            width: 100%;
+            padding: 5px;
+        }
+        .Contact-US{
+            padding: 5px;
+            width: 100%;
+        }
+}
+

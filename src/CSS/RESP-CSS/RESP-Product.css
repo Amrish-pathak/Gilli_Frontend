@@ -1,0 +1,94 @@
+@media only screen and (max-width: 1145px) {
+    .Second-Content-Child-2 img { 
+        width: 450px;
+    }
+    
+}
+@media only screen and (max-width: 989px) {
+   
+    
+    .Second-Content-Child-1 {
+        width: auto;
+       
+    }
+    .Second-Content-Child-2 img { 
+        width: 600px;
+    }
+    .Our-Pricing {
+     padding: 0px 20px;
+     
+    }
+}
+@media only screen and (max-width: 870px) {
+    .Secondary-Content-Heading {
+        font-size: 2.8VW;
+        font-weight: 500;
+    }
+    
+   
+}
+@media only screen and (max-width: 780px) {
+    .Width-maneger-m{
+        width: 75%;
+    }
+    
+   
+}
+@media only screen and (max-width: 650px) {
+    .Second-Content-Child-1 .Child-1-Heading {
+        font-size: 4.5vw;
+        /* padding-bottom: 20px; */
+        color: #3d58cc;
+    }
+    .Second-Content-Child-2 img { 
+        width: 70VW;
+    }
+    .Secondry-Content-Cards {
+       flex-direction: column;
+       align-items: center;
+       gap: 5px;
+       
+    }
+    .Card-importent-2-1 {
+        width: 80%;
+        margin-bottom: 10px;
+           
+    }
+    .Still-Doubt{
+        padding: 30px 10px;
+    }
+    
+}
+@media only screen and (max-width: 410px) {
+    .Info-Name-img img {
+        height: 240px;
+        width: 280px;
+    }
+    .Sab-title hr {
+        width: 40px;
+    
+    }
+    .Second-Content-Child-2 img { 
+        height: 240px;
+        width: 280px;
+    }
+    .Child-1-Text {
+        line-height: 1.2rem;
+        font-size: 13px;
+    }
+    .Second-Content-Child-1 .Child-1-Sub-heading {
+        font-size: 13px;
+       
+    }
+    
+    .Doubt-Manager{
+        height: 300px;
+    }
+    
+    
+    
+    .Colur-Maneger{
+        height: 300px;
+        
+    }
+}
