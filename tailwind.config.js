@@ -58,6 +58,10 @@ module.exports = {
       },
       
       keyframes: {
+        slideUp: {
+          '0%': { transform: 'translateY(100%)' },
+          '100%': { transform: 'translateY(0)' },
+        },
         zoomBounce: {
           "0%, 100%": { transform: "scale(0.9)" },
           "50%": { transform: "scale(1.1)" },
@@ -71,7 +75,7 @@ module.exports = {
         spinslow: "spin 10s linear infinite", // Custom slow spin
         zoomBounce: "zoomBounce 1.5s ease-in-out infinite",
         'fade-in': 'fadeIn 1s ease-out forwards',
-        
+        slideUp: 'slideUp 0.4s ease-out',
       },
       
     },
