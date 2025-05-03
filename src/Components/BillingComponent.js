@@ -3,11 +3,12 @@ import { X } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
 const BillingComponent = ({ product, onClose }) => {
+  console.log(product);
   const navigate = useNavigate();
 
-  const isRental = product.productType?.toLowerCase() === "rental";
+  const isRental = product.productType?.toLowerCase().includes("rental");
   const months = isRental ? product.months : 1;
-  const basePrice = product.price * months;
+  const basePrice = product.basePrice;
   const gst = basePrice * 0.18;
   const total = basePrice + gst;
 
@@ -42,7 +43,7 @@ const BillingComponent = ({ product, onClose }) => {
         <div className="space-y-4 text-gray-700 text-sm sm:text-base">
           <div className="flex justify-between">
             <span className="font-medium">Product:</span>
-            <span className="text-gray-900">{product.productType}</span>
+            <span className="text-gray-900">{product.name} {product.productType}</span>
           </div>
           <div className="flex justify-between">
             <span className="font-medium">User Edition:</span>

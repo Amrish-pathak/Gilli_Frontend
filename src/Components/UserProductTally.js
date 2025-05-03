@@ -50,6 +50,7 @@ const [showBillingInfo, setShowBillingInfo] = useState(false);
     const basePrice = product.price * months;
     const gst = basePrice * 0.18;
     const total = basePrice + gst;
+    const productid = product.id;
 
     setSelectedProduct({
       ...product,
@@ -57,6 +58,7 @@ const [showBillingInfo, setShowBillingInfo] = useState(false);
       basePrice,
       gst,
       total,
+      productid,
     });
   };
 
@@ -103,7 +105,7 @@ const [showBillingInfo, setShowBillingInfo] = useState(false);
                     <p className="p-card">
                       Months
                       {[1, 3, 12].map((m) => (
-                        <label key={m} className="">
+                        <label key={m} className="ml-1">
                           <input
                             type="radio"
                             className="check-box"
@@ -122,7 +124,7 @@ const [showBillingInfo, setShowBillingInfo] = useState(false);
                     </p>
 
                     <div className="Buy-btn">
-                      <button className="btn btn-by" onClick={() => handleBuyNow(product, selectedMonths[product.id] || 1)}>
+                      <button className="btn btn-by" onClick={() => handleBuyNow(product, selectedMonths[product.id])}>
                         Buy Now
                       </button>
                     </div>
