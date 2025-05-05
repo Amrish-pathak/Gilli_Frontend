@@ -33,6 +33,7 @@ import EnquaryManager from './pages/admin/EnquaryManager';
 import AdmissionTraning from './pages/admin/AdmissionTranning';
 import TallyCustum from './pages/admin/TallyCustum';
 import CompanyProfile from './pages/admin/CompanyProfile';
+import SalesDashboard from './pages/admin/SalesDashboard';
 
 // import Settings from "./pages/admin/Settings";
 // import EditTasks from "./pages/admin/EditTasks";
@@ -74,7 +75,7 @@ const router = createBrowserRouter([
       //     { path: "managetasks", element: <EditTasks /> },
       { path: "productmanager", element: <ProductManager /> },
       { path: "tdl", element: <TdlManagerAdmin /> },
-      //     { path: "promo", element: <AdminAdvertTasks /> },
+          { path: "sales-dashboard", element: <SalesDashboard/>},
           { path: "tally-custum", element: <TallyCustum/> },
           { path: "enquary-manager", element: <EnquaryManager/> },
           { path: "admission-tranning", element: <AdmissionTraning/> },

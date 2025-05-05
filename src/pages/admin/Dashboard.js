@@ -25,7 +25,7 @@ const linksTo = [
         title: 'Tdl Manager',
     },
     {
-        link: '/dashboardAdx/youtube',
+        link: '/dashboardAdx/sales-dashboard',
         title: 'Products Sales',
     },
     {
@@ -74,8 +74,8 @@ const Dashboard = () => {
             setPageTitle('Product Manager Utility')
         } else if (pageRoute.pathname === '/dashboardAdx/tdl') {
             setPageTitle('Manage All Tdls')
-        } else if (pageRoute.pathname === '/dashboardAdx/promo') {
-            setPageTitle('Adverts/Promo Tasks')
+        } else if (pageRoute.pathname === '/dashboardAdx/sales-dashboard') {
+            setPageTitle('Sales Dashboard')
         } else if (pageRoute.pathname === '/dashboardAdx/tally-custum') {
             setPageTitle('All Tally Custumizaction')
         } else if (pageRoute.pathname === '/dashboardAdx/admission-tranning') {
