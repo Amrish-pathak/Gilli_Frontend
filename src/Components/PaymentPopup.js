@@ -42,7 +42,9 @@ const PaymentPopup = ({ isOpen, onClose, product,buyerinfo }) => {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
+          product,
           paymentId: paymentDetails.paymentId,
+          amount:paymentDetails.amount,
           utr: utrNumber,
           buyerinfo : buyerinfo,
         }),
