@@ -20,7 +20,6 @@ const PaymentPopup = ({ isOpen, onClose, product,buyerinfo }) => {
         qrUrl: data.qrImageUrl,
         paymentId: data.paymentId,
         amount: data.totalAmount,
-        gst: data.gst,
       });
     } catch (error) {
       console.error("Payment request error:", error);
