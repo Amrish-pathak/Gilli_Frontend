@@ -2,12 +2,25 @@ import React from 'react';
 import { Pie } from 'react-chartjs-2';
 import {
   Chart as ChartJS,
-  ArcElement,
+  LineElement,
+  PointElement,
+  CategoryScale,
+  LinearScale,
+  Title,
   Tooltip,
   Legend
 } from 'chart.js';
 
-ChartJS.register(ArcElement, Tooltip, Legend);
+ChartJS.register(
+  LineElement,
+  PointElement,
+  CategoryScale,
+  LinearScale,
+  Title,
+  Tooltip,
+  Legend
+);
+
 
 export const SalesPie = () => {
   const data = {
